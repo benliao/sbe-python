@@ -53,6 +53,7 @@ class Presence(enum.Enum):
 
 class CharacterEncoding(enum.Enum):
     ASCII = 'ASCII'
+    UTF8 = 'UTF-8'
 
 
 @dataclass
